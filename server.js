@@ -16,6 +16,13 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get('/test',(req,res) => {
+  console.log("test")
+  res.json({
+    message: "testing of CI/CD pipeline"
+  })
+})
+
 app.get('/demo',(req,res) => {
   res.send("Hello")
 })
