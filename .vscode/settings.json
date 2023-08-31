@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/3840cf6b-2912-4a8b-ac52-969daf801c6c/resourceGroups/my-rg/providers/Microsoft.Web/sites/first-app-service-by-qutub",
+    "appService.deploySubpath": "."
+}
